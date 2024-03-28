@@ -11,13 +11,22 @@ int main()
 	// Задание 1
 	int indexToRemove = 0;
 	cout << "По какому индексу удалить элемент в строке \"Hello World!\"? ";
-	cin >> indexToRemove;
-	char str[] = { "Hello World!" };
-	deleteCharacterAtIndex(str, indexToRemove);
-	cout << str << endl;
+	//cin >> indexToRemove;
+	char str[100] =  "Hello World!" ;
+	//deleteCharacterAtIndex(str, indexToRemove);
+	//cout << str << endl;
 
-	// Задание 2
-	deleteSymbol(str, 'r');
+	//// Задание 2
+	//deleteSymbol(str, 'r');
+	//cout << str << endl;
+
+	
+	char ch = '*';
+	int pos = 7;
+
+	
+	insertCharToPos(str,  ch, pos);
+
 	cout << str << endl;
 }
 

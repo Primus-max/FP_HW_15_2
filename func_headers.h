@@ -8,4 +8,7 @@ void deleteCharacterAtIndex(char str[], int index);
 // Функция удаляет из строки все вхождения заданного символа.
 void deleteSymbol(char str[], char sym);
 
+// Функция вставляет указанный символ в указанную позицию
+void insertCharToPos(char str[], char sym, int pos);
+
 #endif 
