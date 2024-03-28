@@ -129,6 +129,8 @@
   <ItemGroup>
     <ClCompile Include="FP_HW_15_2.cpp" />
     <ClCompile Include="FP_HW_15_2_Task_1.cpp" />
+    <ClCompile Include="FP_HW_15_2_Task_2.cpp" />
+    <ClCompile Include="FP_HW_15_2_Task_4.cpp" />
     <ClCompile Include="message_utils.cpp" />
     <ClCompile Include="message_utils.h" />
   </ItemGroup>

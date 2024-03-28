@@ -27,6 +27,12 @@
     <ClCompile Include="message_utils.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="FP_HW_15_2_Task_2.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="FP_HW_15_2_Task_4.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Tasks.MD" />
