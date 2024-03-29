@@ -9,6 +9,9 @@ void deleteCharacterAtIndex(char str[], int index);
 void deleteSymbol(char str[], char sym);
 
 // Функция вставляет указанный символ в указанную позицию
-void insertCharToPos(char str[], char sym, int pos);
+void insertCharToPos(char* str, char sym, int pos);
+
+// Функция заменяет все '.' на '!'
+void replaceAllSymbols(char* str, char src, char ptr);
 
 #endif 

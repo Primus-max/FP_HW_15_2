@@ -34,5 +34,12 @@ int main()
 	cin >> chToInsert >> posToInsert;
 	insertCharToPos(inputStr, chToInsert, posToInsert);
 	cout << inputStr << endl;
+
+	// Задание 4
+	char symSrc, symToInsert;
+	Info("Укажите символ который надо заменить, на который надо заменить (будут заменены все вхождения символа)");
+	cin >> symSrc >> symToInsert;
+	replaceAllSymbols(inputStr, symSrc, symToInsert);
+	cout << inputStr << endl;
 }
 
