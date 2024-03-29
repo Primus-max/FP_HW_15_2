@@ -14,9 +14,8 @@ void insertCharToPos(char* str, char sym, int pos) {
     // Но это мне кажется красивее, надо замерять производительность
 
     // Перемещение символов с позиции pos до конца строки на одну позицию вправо
-    memmove(str + pos + 1, str + pos, len - pos + 1);
-    // Вставка заданного символа в позицию pos
-    str[pos] = sym;
+    memmove(str + pos + 1, str + pos, len - pos + 1);    
+    str[pos] = sym; // Вставка заданного символа в позицию pos
 }
 
 
