@@ -17,4 +17,6 @@ void replaceAllSymbols(char* str, char src, char ptr) {
 	size_t length = strlen(str);
 	for (size_t i = 0; i < length; ++i)
 		if (str[i] == src) str[i] = ptr;
+
+	//strnset();
 }
