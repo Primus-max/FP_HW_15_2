@@ -133,6 +133,7 @@
     <ClCompile Include="FP_HW_15_2_Task_3.cpp" />
     <ClCompile Include="FP_HW_15_2_Task_4.cpp" />
     <ClCompile Include="FP_HW_15_2_Task_5.cpp" />
+    <ClCompile Include="FP_HW_15_2_Task_6.cpp" />
     <ClCompile Include="message_utils.cpp" />
     <ClCompile Include="message_utils.h" />
   </ItemGroup>
